@@ -1,0 +1,23 @@
+{
+  "name": "drupal/twilio",
+  "description": "A listener / client for twilio messages",
+  "type": "drupal-module",
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "homepage": "https://github.com/aaronbauman/twilio",
+  "require": {
+    "twilio/sdk": "^5.15",
+    "drupal/geocoder": "^2.0@alpha",
+  },
+  "authors": [
+    {
+      "name": "Aaron Bauman",
+      "homepage": "https://www.drupal.org/u/aaronbauman",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/aaronbauman/twilio",
+    "source": "https://github.com/aaronbauman/twilio"
+  }
+}

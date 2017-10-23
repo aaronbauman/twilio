@@ -1,0 +1,7 @@
+keyspot.listener:
+  path: '/keyspot'
+  methods: [POST]
+  defaults:
+    _controller: '\Drupal\twilio\Controller\Listener::listen'
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,7 @@
+type: module
+name: Twilio
+description: twilio responder
+core: '8.x'
+project: 'twilio'
+dependencies:
+  - geocoder
